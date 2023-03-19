@@ -1,4 +1,4 @@
-
+var userClickedPattern = [];
 var gamePattern = [];
 var buttonColours = ["red" , "blue" , "green" , "yellow"];
 var randomChosenColour;
@@ -14,7 +14,8 @@ $("h2").css("color", "red");
 var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
 audio.play();
 
-$("button").click(function(){
-var userChosenColour = $("#" + randomChosenColour);
+$(".btn").click(function(){
+var userChosenColour = $(this).attr("id");
 
+userClickedPattern.push(userChosenColour);
 });
