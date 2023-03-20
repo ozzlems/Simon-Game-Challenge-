@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-image: linear-gradient(to left top, #d956e8, #bd47db, #a139cf, #842bc2, #661eb5, #621ab7, #5e16ba, #5a11bc, #7412cd, #8e12de, #a80fef, #c309ff);
+   z-index : 0;
 }
 
 #level-title {
@@ -18,18 +19,19 @@ body {
 }
 
 .btn {
-  margin: 25px;
+  margin: 30px;
   display: inline-block;
   height: 200px;
   width: 200px;
   border: 10px solid black;
   box-shadow: 0 0 10px #9ecaed;;
-  border-radius: 100%;
+  border-radius: 90%;
 }
 
 .game-over {
-  background-color: red;
+  background-image: linear-gradient(to top, #f66d00, #e55b03, #d34a04, #c03805, #ae2505, #a11c07, #931208, #860708, #7a0a0b, #6e0c0d, #630e0e, #570f0f);
   opacity: 0.8;
+  z-index : 1;
 }
 
 .red {
@@ -41,7 +43,7 @@ body {
 }
 
 .blue {
-  background-color:rgb(98, 67, 199);
+  background-color:rgb(79, 122, 202);
 }
 
 .yellow {
