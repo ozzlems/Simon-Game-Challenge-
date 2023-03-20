@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-image: linear-gradient(to left top, #d956e8, #bd47db, #a139cf, #842bc2, #661eb5, #621ab7, #5e16ba, #5a11bc, #7412cd, #8e12de, #a80fef, #c309ff);
 }
 
 #level-title {
@@ -23,7 +23,7 @@ body {
   height: 200px;
   width: 200px;
   border: 10px solid black;
-  box-shadow: 0 0 15px #9ecaed;;
+  box-shadow: 0 0 10px #9ecaed;;
   border-radius: 100%;
 }
 
@@ -48,6 +48,6 @@ body {
   background-color: rgb(255, 227, 15);}
 
 .pressed {
-  box-shadow: 1px 10px 50px rgb(255, 255, 255);
-  background-color: rgb(110, 106, 106);
+  box-shadow: 1px 1px 50px rgb(255, 255, 255);
+  background-color: rgb(109, 108, 108);
 }
