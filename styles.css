@@ -33,21 +33,21 @@ body {
 }
 
 .red {
-  background-color: red;
+  background-color: rgb(187, 58, 26);
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(37, 117, 48);
 }
 
 .blue {
-  background-color:blue;
+  background-color:rgb(98, 67, 199);
 }
 
 .yellow {
-  background-color: yellow;}
+  background-color: rgb(255, 227, 15);}
 
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+  box-shadow: 1px 10px 50px rgb(255, 255, 255);
+  background-color: rgb(110, 106, 106);
 }
